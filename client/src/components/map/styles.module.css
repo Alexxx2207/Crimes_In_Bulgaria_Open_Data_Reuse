@@ -1,0 +1,20 @@
+.map-wrapper {
+    align-self: center;
+    height: 750px;
+    width: 1200px;
+}
+
+.map-legend {
+    margin-bottom: 10px;
+    
+    align-self: center;
+
+    display: flex;
+    gap: 30px;
+
+    .legend-card {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+} 
