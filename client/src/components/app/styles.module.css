@@ -46,4 +46,11 @@
     .total-by-types-section {
         width: 80%;
     }
+
+    .link {
+        all: unset;
+        color: white;
+        cursor: pointer;
+        text-decoration: underline;
+    }
 }
