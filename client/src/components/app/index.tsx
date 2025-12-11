@@ -46,6 +46,10 @@ export function App() {
                 <a className={styles.link} href='https://data.egov.bg/data/resourceView/181dd1cb-6d47-4a28-8914-d78d9407f351'>Министерство на вътрешните работи, Портал за отворени данни – data.egov.bg, набор „Полицейска статистика 2024 г (Области)</a>
                 <a className={styles.link} href='https://data.egov.bg/data/resourceView/5596aa4f-8c5f-44cc-b4dc-2e9c7c4f666b'>Министерство на вътрешните работи, Портал за отворени данни – data.egov.bg, набор „Полицейска статистика 2024 г (Видове)</a>
             </section>
+
+            <section style={{marginTop: 20}}>
+                <img src='/cc.jpeg' alt='CC logo - credited' style={{width: 200}} />
+            </section>
         </div>
     )
 }

@@ -34,7 +34,7 @@ export function Map() {
 
         layer.bindPopup(`
             <b>NUTS3: ${inverseMapping(code)}</b><br>
-            Брой: ${provinceData[code] ?? "N/A"}<br>
+            Престъпления: ${provinceData[code] ?? "N/A"}<br>
         `);
 
         layer.on({
