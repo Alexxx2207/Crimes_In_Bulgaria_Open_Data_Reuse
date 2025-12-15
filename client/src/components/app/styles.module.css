@@ -4,6 +4,8 @@
     align-items: center;
     background-color: #1a1a1a;
 
+    gap: 30px;
+
     & > section {
         display: flex;
         flex-direction: column;
