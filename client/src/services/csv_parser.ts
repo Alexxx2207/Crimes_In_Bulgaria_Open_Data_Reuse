@@ -101,7 +101,6 @@ function splitCSV(row: string): string[] {
         const char = row[i];
 
         if (char === '"') {
-        // Toggle inQuotes or handle escaped quotes
             if (inQuotes && row[i + 1] === '"') {
             current += '"';
             i++;

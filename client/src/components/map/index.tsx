@@ -33,7 +33,7 @@ export function Map() {
         const code = feature.properties.nuts3;
 
         layer.bindPopup(`
-            <b>NUTS3: ${inverseMapping(code)}</b><br>
+            <b>${inverseMapping(code)}</b><br>
             Престъпления: ${provinceData[code] ?? "N/A"}<br>
         `);
 
