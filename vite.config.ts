@@ -10,5 +10,5 @@ export default defineConfig({
       localsConvention: "camelCase"
     }
   },
-  base: '/'
+  base: '/Crimes_In_Bulgaria_Open_Data_Reuse/'
 })
